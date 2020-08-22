@@ -20,8 +20,8 @@ public class Tweet {
     @CreationTimestamp
     private Timestamp postTime;
     
-    //@ManyToOne
-    //private User tweetUser;
+    @ManyToOne
+    private User tweetUser;
     
     @NotNull
     private String content;
